@@ -1,2 +1,2 @@
 # presentation-swift
-Presentation for CS 5828 on the Swift Programming Language
+Presentation for CSCI 5828 on the Swift Programming Language
