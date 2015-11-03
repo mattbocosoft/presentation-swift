@@ -23,7 +23,7 @@ Swift is multi-[paradigm](https://en.wikipedia.org/wiki/Programming_paradigm) (e
 
 #####Classes  
 
-#######Initializers  
+######Initializers  
 
 Initializers do not return a value.
 All stored non-optional properties must be initialized.
