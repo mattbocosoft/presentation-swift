@@ -17,7 +17,7 @@ Swift is multi-[paradigm](https://en.wikipedia.org/wiki/Programming_paradigm) (e
 
 #####Collections  
 
-#####Optionals  
+#####Optionals and Optional Chaining  
 
 #####[Flow of Control](https://en.wikipedia.org/wiki/Control_flow)  
 
@@ -32,7 +32,13 @@ All stored non-optional properties must be initialized.
 
 #####Subclassing  
 
+#####Error Handling  
 
+4 ways to handle errors
+1. Propagating Errors Using Throwing Functions  
+2. Handling Errors Using Do-Catch  
+3. Converting Errors to Optional Values  
+4. Disabling Error Propagation  
 
 #####Interoperating with Objective-C  
 
