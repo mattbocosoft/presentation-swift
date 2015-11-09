@@ -68,3 +68,21 @@ repeat {
 } while person.hungry
 ```
 
+###Switch Cases  
+An important difference between Swift's switch statements and traditional switch statments is that 'break's are not required to prevent fall-through from one case to the next. Instead multiple cases can be matched simulataneously:  
+```
+switch person.position {
+case Job.BusinessAnalyst:
+    print("What's needed?")
+case Job.Designer:
+    print("Make pretty things")
+case Job.Developer:
+    print("Let's code!")
+case Job.ProductManager, Job.ProjectManager, Job.ScrumMaster:
+    print("Is the code done yet?")
+default:
+    print("I need a job...")
+}
+```
+
+For more information about control flow in Swift, including really cool handling of Tuples, check out the chapter on [Control Flow](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/ControlFlow.html) in Apple's Swift Book.  
