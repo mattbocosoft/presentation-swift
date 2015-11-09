@@ -91,5 +91,16 @@ Swift's switch case control flow statement is exhaustive, meaning that every cas
 
 Control transfer statements include **break**, **continue**, and **return** work just like they do in most programming languages. **Break** leaves the current control-flow statement, **continue** return to the first line of the control-flow statement instead of leaving it entirely, and **return** returns from the current function with an optional value.
 
+###Return Early, Return Often  
+
+Guard statements are new to Swift and the concept that it represents is immensely important for clean safe code.  
+
+```
+guard let name = person.name else {
+    return
+}
+```
+
+Guard statements always include the `else` clause and are meant to be used to exit early from a function if some condition does not hold true. Otherwise execution of the function continues.  
 
 For more information about control flow in Swift, including special handling of Tuples in switch statements and labeled statments check out the chapter on [Control Flow](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/ControlFlow.html) in Apple's Swift Book.  
