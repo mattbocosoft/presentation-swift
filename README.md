@@ -15,6 +15,31 @@ One could write an entire book about the Swift programming language, and indeed 
 
 ##The Basics of Swift  
 
+Constants and Variables divide values into either mutable or immutable:  
+```
+let myImmutableNumber = 42 // Cannot be modified
+var myMutableNumber = 24   // Can be modified
+```
+
+If you do not need to modify a variable after it is first set, then use a constant instead of a variable. The helps to ensure code-safety as well as removed unnecessary overheard associated with mutable variables.  
+
+One unique feature of Swift is that constant and variable names can even contain unicode characters, opening up the door to Unicode:  
+
+```
+let π = 3.14159
+let 你好世界 = "Hello World"
+let 🌲 = "Evergreen"
+```
+
+Optionals are one of the most powerful and safe features of Swift. An optional value means that the value may or may not be present.  
+
+> Optionals say either “there is a value, and it equals x” or “there isn’t a value at all”.  
+> Using optionals is similar to using nil with pointers in Objective-C, but they work for any type, not just classes.  
+\- [Swift: The Basics](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309)  
+
+To read more about Optionals, check out the chapter on [Swift: The Basics](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309) in Apple's book on Swift.  
+
+
 ###[Operators](operators.md)  
 
 ###[Collections](collections.md)  
