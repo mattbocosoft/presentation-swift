@@ -8,6 +8,7 @@ All the Collections below conform to the following operations:
 ```
 collection.isEmpty // Check if collection is empty
 collection.count   // Return number of items in collection
+collection.sort()  // Return the items in the collection (as an array) after sorting using the < operator"
 ```
 
 ##Array  
@@ -106,7 +107,6 @@ myDictionary.removeValueForKey["cheese"] // Remove the key-value pair with key "
 
 ##Set  
 
-
 ####Creation  
 ```
 var names = Set<String>() // Create an empty Set of type String
@@ -115,15 +115,24 @@ var otherNames: Set = []  // Create an empty generic Set
 
 ####Retrieving values  
 ```
+names.contains("Amy") // Returns true if Set contains "Amy", otherwise returns false
+
+for names in names {
+   // Iterate over all items in the Set
+   print("\(name)")
+}
 ```
+
+Set collections also do not conform to a specific ordering, so make sure to use sort() if you need to iterate over the elements in a specific order.  
 
 ####Modifying or adding values  
 ```
-names.insert("Sami")
+names.insert("Sami")  // Inserts value "Sami" into Set
 ```
 
 ####Removing values  
 ```
+names.remove("Jacob")
 ```
 
 
