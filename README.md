@@ -43,8 +43,6 @@ To read more about Optionals, check out the chapter on [Swift: The Basics](https
 
 ###[Collections](collections.md)  
 
-###[Optionals and Optional Chaining](optionals.md)  
-
 ###[Flow of Control](https://en.wikipedia.org/wiki/Control_flow)  
 
 ###Classes  
