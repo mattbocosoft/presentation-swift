@@ -21,7 +21,20 @@ class Person {
 
 ###Initializers  
 
-Unlike in Objective-C, Swift initializers do not return a value. All stored non-optional properties must be initialized before the initializer chain is complete, otherwise a compile-time error will be generated.  
+Unlike in Objective-C, Swift initializers do not return a value. All stored non-optional properties must be initialized before the initializer chain is complete, otherwise a compile-time error will be generated. So for the example above, name and position must be initialized in init.  
+
+```
+class Person {
+  var name: String
+  var age: Int?
+  var position: Job
+
+  init() {
+    name = "Tom"
+    position = Job.Developer
+  }
+}
+```
 
 ###Inheritance  
 
