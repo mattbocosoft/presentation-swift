@@ -25,11 +25,6 @@ One could write an entire book about the Swift programming language, and indeed 
 
 ####[Classes](classes.md)  
 
-#####Initializers  
-
-Initializers do not return a value.
-All stored non-optional properties must be initialized.
-
 ####Extensions  
 
 ####Protocols  
