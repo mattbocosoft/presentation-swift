@@ -11,7 +11,7 @@ Swift is a relatively new programming language designed by [Chris Lattner](https
 
 Swift is multi-[paradigm](https://en.wikipedia.org/wiki/Programming_paradigm) (e.g. Imperative, Functional, Object-Oriented, etc.) programming languages that has taken many of the best aspects of Objective-C and added safe programming patterns and modern features.  
 
-One could write an entire book about the Swift programming language, and indeed Apple released *two* books on Swift available for free on the iBooks Store: [The Swift Programming Language](https://itunes.apple.com/us/book/the-swift-programming-language/id881256329?mt=11). This presentation should therefore not expect to cover every topic of Swift, but rather serve as a quick reference guide on the basic syntax, semantics and high-level functionality of Swift aimed at those already well-versed in at least one other programming language.  
+One could write an entire book about the Swift programming language, and indeed Apple released *two* books on Swift available for free on the iBooks Store: [The Swift Programming Language](https://itunes.apple.com/us/book/the-swift-programming-language/id881256329?mt=11). This presentation is therefore not intended to cover every topic of Swift, but rather to serve as a quick reference guide on the basic syntax, semantics and high-level functionality of Swift aimed at those already well-versed in at least one other programming language.  
 
 ###[Operators](operators.md)  
 
