@@ -11,11 +11,11 @@ Swift is a relatively new programming language designed by [Chris Lattner](https
 
 Swift is multi-[paradigm](https://en.wikipedia.org/wiki/Programming_paradigm) (e.g. Imperative, Functional, Object-Oriented, etc.) programming languages that has taken many of the best aspects of Objective-C and added safe programming patterns and modern features.  
 
-One could write an entire book about the Swift programming language, and indeed Apple released *two* books on Swift available for free on the iBooks Store: [The Swift Programming Language](https://itunes.apple.com/us/book/the-swift-programming-language/id881256329?mt=11). This presentation is therefore not intended to cover every topic of Swift, but rather to serve as a quick reference guide on the basic syntax, semantics and high-level functionality of Swift aimed at those already well-versed in at least one other programming language.  
+One could write an entire book about the Swift programming language, and indeed Apple released *two* books on Swift available for free on the iBooks Store: [The Swift Programming Language](https://itunes.apple.com/us/book/the-swift-programming-language/id881256329?mt=11). This presentation is therefore not intended to cover every topic of Swift, but rather to serve as a quick reference guide on the basic syntax, semantics and high-level functionality of Swift aimed at those already well-versed in at least one other programming language. For developers who came from using Objective-C for their Xcode projects, the change will be easier than developers coming from other languages and environemnts. As mentioned previously, Swift borrows many of its core concepts from Objective-C.  
 
 ##The Basics of Swift  
 
-Constants and Variables divide values into either mutable or immutable:  
+**Constants** and **Variables** divide values into either mutable or immutable:  
 ```
 let myImmutableNumber = 42 // Cannot be modified
 var myMutableNumber = 24   // Can be modified
@@ -31,14 +31,13 @@ let 你好世界 = "Hello World"
 let 🌲 = "Evergreen"
 ```
 
-Optionals are one of the most powerful and safe features of Swift. An optional value means that the value may or may not be present.  
+**Optionals** are one of the most powerful and safe features of Swift.  
 
 > Optionals say either “there is a value, and it equals x” or “there isn’t a value at all”.  
 > Using optionals is similar to using nil with pointers in Objective-C, but they work for any type, not just classes.  
 \- [Swift: The Basics](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309)  
 
 To read more about Optionals, check out the chapter on [Swift: The Basics](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309) in Apple's book on Swift.  
-
 
 ###[Operators](operators.md)  
 
@@ -71,9 +70,11 @@ All stored non-optional properties must be initialized.
 3. Converting Errors to Optional Values  
 4. Disabling Error Propagation  
 
-##Interoperating with Objective-C  
+###Other Swift Tools  
 
-For developers who came from using Objective-C for their Xcode projects, the change will be less of a shock. As mentioned previously, Swift borrows many of its core concepts from Objective-C.  
+To print out text, constants and variables to the console:  
+`print("Hello there \(name)")`
+
 
 ##Resources  
 [The Swift Programming Language](https://itunes.apple.com/us/book/the-swift-programming-language/id881256329?mt=11) [(*or View Online*)](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Initialization.html#//apple_ref/doc/uid/TP40014097-CH18-ID203)  
