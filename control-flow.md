@@ -2,6 +2,26 @@
 
 Swift includes [control flow](https://en.wikipedia.org/wiki/Control_flow)   structures just like other languages to determine where the program's next line of execution should proceed.  
 
+###If Statements  
+
+If-statements are probably the most frequently used control-flow statements in any programming language and are easy to understand by even non-programmers. Swift does away with the parentheses that were required in Objective-C.  
+```
+if condition {
+    // Continue here if condition is true
+}
+```
+
+Else and else-if statements work the same way and are not required by **do** require attachment to an if-statement:  
+```
+if condition {
+    // Continue here if condition is true
+} else if anotherCondition {
+    // ...otherwise if anotherCondition is true continue here
+} else {
+    // ...if both conditions are false, then continue here
+}
+```
+
 ###Traditional For-Loops  
 Using Swift's syntax, the traditional for-loop should be very familiar yet seldom used in Swift because of the more powerful for-loops offered.
 ```
