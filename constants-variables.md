@@ -39,7 +39,6 @@ if let actualAge = possibleAge {
 }
 ```
 
-Optionals can be set back to nil `possibleAge = nil` while non-optionals *cannot be set to nil*.
-
+Optionals can be set back to nil `possibleAge = nil` while non-optionals *cannot be set to nil*.  
 
 To read more about Optionals, check out the chapter on [Swift: The Basics](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309) in Apple's book on Swift.  
