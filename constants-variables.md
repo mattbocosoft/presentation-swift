@@ -68,7 +68,9 @@ Optionals can be a difficult concept to pick up on immediately. To read more abo
 
 In order to aleviate chains of optional binding, the architects of Swift added optional chaining which provides the convenience of not needing to check intermediate optionals in a chain of optionals. Optional chaining can be used by adding a question mark after each optional in the chain. If any of the optionals in the chain is nil, then the program does not proceed to look at the next optional and instead immediately returns nil:  
 ```
-let possibleAge = organization?.management?.ceo?.age
+if let possibleAge = organization?.management?.ceo?.age {
+  // All intermediate optionals including the age are non-nil
+}
 ```
 
 The same can be used for *setting* optional values:  
