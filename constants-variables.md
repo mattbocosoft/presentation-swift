@@ -51,7 +51,7 @@ let actualAge = possibleAge!
 
 Alternatively, an optionals can be declared with the exclamation mark in place so that they are *implicitly unwrapped*, which is a feature primarily used during class initialization:
 ```
-var possibleAge!
+var possibleAge: Int!
 
 init() {
   possibleAge = 42
