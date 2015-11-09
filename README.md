@@ -19,7 +19,7 @@ One could write an entire book about the Swift programming language, and indeed 
 
 ###[Collections](collections.md)  
 
-###Optionals and Optional Chaining  
+###[Optionals and Optional Chaining](optionals.md)  
 
 ###[Flow of Control](https://en.wikipedia.org/wiki/Control_flow)  
 
