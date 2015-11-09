@@ -15,30 +15,30 @@ One could write an entire book about the Swift programming language, and indeed 
 
 ##The Basics of Swift  
 
-###[Constants and Variables](constants-variables.md)  
+####[Constants and Variables](constants-variables.md)  
 
-###[Operators](operators.md)  
+####[Operators](operators.md)  
 
-###[Collections](collections.md)  
+####[Collections](collections.md)  
 
-###[Flow of Control](https://en.wikipedia.org/wiki/Control_flow)  
+####[Flow of Control](https://en.wikipedia.org/wiki/Control_flow)  
 
-###Classes  
+####Classes  
 
-####Initializers  
+#####Initializers  
 
 Initializers do not return a value.
 All stored non-optional properties must be initialized.
 
-###Extensions  
+####Extensions  
 
-###Protocols  
+####Protocols  
 
-###Functions and Methods  
+####Functions and Methods  
 
-###Subclassing  
+####Subclassing  
 
-###Error Handling  
+####Error Handling  
 
 4 ways to handle errors
 1. Propagating Errors Using Throwing Functions  
@@ -46,7 +46,7 @@ All stored non-optional properties must be initialized.
 3. Converting Errors to Optional Values  
 4. Disabling Error Propagation  
 
-###Other Swift Tools  
+####Other Swift Tools  
 
 To print out text, constants and variables to the console:  
 `print("Hello there \(name)")`
