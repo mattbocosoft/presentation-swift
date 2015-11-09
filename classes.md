@@ -4,7 +4,20 @@ Classes help developers abstract away complexity and expose a simplified interfa
 
 ###Set-up  
 
-Classes are declared with the `class` keyword
+Classes are declared with the `class` keyword. They contain a set of stored properties and methods and follow a standard structure:  
+```
+class Person {
+  var name: String
+  var age: Int?
+  var position: Job
+
+  func eat() {
+  }
+  
+  func drink() {
+  }
+}
+```
 
 ###Initializers  
 
