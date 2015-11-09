@@ -17,7 +17,7 @@ let 🌲 = "Evergreen"
 ```
 
 ###Optionals
-Optionals are one of the most powerful features of Swift and contribute to the language's safety features. An optional can either say that there *is a value and it's x* or that the is no value present. Optional are similar to nillable pointers in Objective-C except that they apply to all Types, not just classes.
+Optionals are one of the most powerful features of Swift and contribute to the language's safety features. An optional can either say that there *is a value and it's x* or that *there is no value*. Optional are similar to nillable pointers in Objective-C except that they apply to all Types, not just classes.
 
 Declaring a constant or variable looks much like any other language:  
 ```
