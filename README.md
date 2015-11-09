@@ -13,7 +13,7 @@ Swift is multi-[paradigm](https://en.wikipedia.org/wiki/Programming_paradigm) (e
 
 ###[Operators](operators.md)  
 
-###Collections  
+###[Collections](collections.md)  
 
 ###Optionals and Optional Chaining  
 
