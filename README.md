@@ -62,6 +62,23 @@ All the operators above apply an operation to a value and return a result. Anoth
 (a <= b) // Returns true is a is less than or equal to b
 ```
 
+**Range** operators are especially useful in the context of loops:  
+```
+for index in 5...10 {
+   variable++
+}
+```
+
+The range `(a...b)` is inclusive of both a and b, whereas `(a..<b)` does not include b.  
+
+There are two useful `?` operators in Swift which are very useful:  
+```
+(a ? b : c) // If a is true, return b. Otherwise return c
+a ?? b      // Return a if it is non-nil, otherwise return b
+```
+
+`(a ? b : c)` is also the only ternary operator used in Swift.
+
 To read more about advanced operators, check out the [Advanced Operators](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/AdvancedOperators.html#//apple_ref/doc/uid/TP40014097-CH27-ID28) section in the Swift Programming Language book.
 
 ###Collections  
