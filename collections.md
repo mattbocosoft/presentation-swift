@@ -60,13 +60,28 @@ var otherDictionary = [String: Int]()       // Create an empty dictionary of typ
 *Retrieving values*  
 ```
 myDictionary[a] // Returns the value associated with the key a
+
+for (key, value) in myDictionary {
+   // Iterate over all key-value pairs in dictionary
+   print("\(key): \(value)")
+}
+
+for key in airports.keys {
+   // Iterate over all keys in dictionary
+   print("Key: \(key)")
+}
 ```
 
 *Modifying or adding values*  
 ```
 myDictionary["cheese"] = 4   // Add or update the value 4 with key "cheese"
-myDictionary["cake"] = nil // Remove the key-value pair with key "cake"
+myDictionary.updateValue("cake", forKey: "cheese") // Update value "cake" for key "cheese"
 ```
+
+*Removing values*  
+```
+myDictionary["cake"] = nil               // Remove the key-value pair with key "cake"
+myDictionary.removeValueForKey["cheese"] // Remove the key-value pair with key "cheese"
 
 Note that it is also possible to use other types besides Strings as a key in the dictionary. For example:  
 ```
