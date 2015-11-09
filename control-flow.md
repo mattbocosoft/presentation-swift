@@ -85,4 +85,11 @@ default:
 }
 ```
 
-For more information about control flow in Swift, including really cool handling of Tuples, check out the chapter on [Control Flow](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/ControlFlow.html) in Apple's Swift Book.  
+Swift's switch case control flow statement is exhaustive, meaning that every case needs to be considered either explictly or via the 'default' catch-all.  
+
+###Control Transfers  
+
+Control transfer statements include **break**, **continue**, and **return** work just like they do in most programming languages. **Break** leaves the current control-flow statement, **continue** return to the first line of the control-flow statement instead of leaving it entirely, and **return** returns from the current function with an optional value.
+
+
+For more information about control flow in Swift, including special handling of Tuples in switch statements and labeled statments check out the chapter on [Control Flow](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/ControlFlow.html) in Apple's Swift Book.  
