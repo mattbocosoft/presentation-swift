@@ -66,15 +66,23 @@ myDictionary[business] = [customer1, customer2, customer3]
 ####Retrieving values  
 ```
 myDictionary[a] // Returns the value associated with the key a
+```
 
+Note that dictionaries do not have any explicit ordering, so you cannot depend on an ordering when iterating over key-value pairs unless you iterate over keys or values and sort the items using sort().
+```
 for (key, value) in myDictionary {
    // Iterate over all key-value pairs in dictionary
    print("\(key): \(value)")
 }
 
-for key in airports.keys {
+for key in myDictionary.keys {
    // Iterate over all keys in dictionary
    print("Key: \(key)")
+}
+
+for value in myDictionary.values {
+   // Iterate over all keys in dictionary
+   print("Value: \(value)")
 }
 ```
 
