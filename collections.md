@@ -135,5 +135,26 @@ names.insert("Sami")  // Inserts value "Sami" into Set
 names.remove("Jacob")
 ```
 
+####Set Operations  
+
+The Set collection also provides a specialized Set of operations for Set manipulation which should be familiar.  
+
+#####Creation  
+```
+a.intersect(b)   // Create new set by intersecting a and b
+a.exclusiveOr(b) // Create new set by applying exclusive-or on a and b
+a.union(b)       // Create new set containing all elements from a and b
+a.subtract(b)    // Create new set by subtracting elements of b from a
+```
+
+#####Membership and Equality  
+```
+==
+a.isSubsetOf(b)         // Return true if a is subset of (or equal to) b
+a.isSupersetOf(b)       // Return true if a is superset of (or equal to) b
+a.isStrictSubsetOf(b)   // Return true if a is subset of (but not equal to) b
+a.isStrictSupersetOf(b) // Return true if a is superset of (but not equal to) b
+a.isDisjointWith(b)     // Return true if a shares no values with b
+```
 
 ##Tuple  
