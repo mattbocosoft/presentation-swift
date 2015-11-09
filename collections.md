@@ -19,7 +19,15 @@ myArray[3] // Returns the third item in the array
 
 *Modifying or adding values*  
 ```
-myMutableArray += e // Add a variable 'e' to the array
+myArray.append(e)      // Add a variable 'e' to the array
+myArray += e           // Add a variable 'e' to the array
+myArray += otherArray  // Append all elements of 'otherArray' to myArray
+myArray[0...2] = ["Hello", "Cheese", "Cake"] // Replace items at 0, 1, 2, 3 with new values
+```
+
+*Removing values*
+```
+myArray.removeAtIndex(0) // Remove item at index 0
 ```
 
 You can append two arrays by using the addition operator '+':  
