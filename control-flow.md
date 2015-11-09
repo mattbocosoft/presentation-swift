@@ -31,3 +31,20 @@ for (index, person) in organization {
     print("\(person.name) is employe number \(index)")
 }
 ```
+
+###Repeat and Repeat-While  
+
+Roughly equivalent to traditional do and do-while loops, Swift's repeat and repeat-while offers looping based on a single condition.  
+
+```
+// Drink only if thirsty (0 or more times)
+while person.thirsty {
+    person.drink()
+}
+
+// Eat at least once, even if not hungry (1 or more times)
+repeat {
+    person.eat()
+} while person.hungry
+```
+
