@@ -11,28 +11,30 @@ Swift is a relatively new programming language designed by [Chris Lattner](https
 
 Swift is multi-[paradigm](https://en.wikipedia.org/wiki/Programming_paradigm) (e.g. Imperative, Functional, Object-Oriented, etc.) programming languages that has taken many of the best aspects of Objective-C and added safe programming patterns and modern features.  
 
-###Topics in Swift  
+###Operators  
 
-#####Operators  
+###Collections  
 
-#####Collections  
+###Optionals and Optional Chaining  
 
-#####Optionals and Optional Chaining  
+###[Flow of Control](https://en.wikipedia.org/wiki/Control_flow)  
 
-#####[Flow of Control](https://en.wikipedia.org/wiki/Control_flow)  
+###Classes  
 
-#####Classes  
-
-######Initializers  
+####Initializers  
 
 Initializers do not return a value.
 All stored non-optional properties must be initialized.
 
-#####Functions and Methods  
+###Extensions  
 
-#####Subclassing  
+###Protocols  
 
-#####Error Handling  
+###Functions and Methods  
+
+###Subclassing  
+
+###Error Handling  
 
 4 ways to handle errors
 1. Propagating Errors Using Throwing Functions  
@@ -40,9 +42,9 @@ All stored non-optional properties must be initialized.
 3. Converting Errors to Optional Values  
 4. Disabling Error Propagation  
 
-#####Interoperating with Objective-C  
+###Interoperating with Objective-C  
 
-###Resources  
+##Resources  
 Apple released two books on Swift available for free on the iBooks Store:  
 [The Swift Programming Language](https://itunes.apple.com/us/book/the-swift-programming-language/id881256329?mt=11) [(*or View Online*)](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Initialization.html#//apple_ref/doc/uid/TP40014097-CH18-ID203)  
 [Using Swift with Cocoa and Objective-C](https://itunes.apple.com/us/book/using-swift-cocoa-objective/id888894773?mt=11)  
