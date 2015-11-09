@@ -79,9 +79,9 @@ class Person {
 }
 ```
 
-###Inheritance  
+###Functions and Methods  
 
-
+###Inheritance and Subclassing  
 
 ###Structures  
 
