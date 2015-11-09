@@ -8,8 +8,8 @@ Swift collections are mutable by default, so it's easy to add, remove or modify 
 
 *Creation*  
 ```
-let myArray = [a, b, c, d]           // Generic
-let otherArray: [Int] = [4, 5, 6, 7] // Type-specific Array only stores Int's
+let myArray = [a, b, c, d] // Create a generic array and fill it with objects
+let otherArray: [Int] = [] // Create an empty array that only holds Int's
 ```
 
 *Retrieving values*  
