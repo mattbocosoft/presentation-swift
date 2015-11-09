@@ -8,8 +8,8 @@ Swift collections can be either mutable or immutable depending on whether the co
 
 *Creation*  
 ```
-let myArray = [a, b, c, d] // Create a generic array and fill it with objects
-let otherArray: [Int] = [] // Create an empty array that only holds Int's
+var myArray = [a, b, c, d] // Create a generic array and fill it with objects
+var otherArray: [Int] = [] // Create an empty array that only holds Int's
 ```
 
 *Retrieving values*  
@@ -51,7 +51,7 @@ let bigArray = firstArray + secondArray
 
 *Creation*  
 ```
-let myDictionary = [a : 0, b : 1, c : 2]  
+var myDictionary = [a : 0, b : 1, c : 2]  
 ```
 
 *Retrieving values*  
@@ -67,7 +67,7 @@ myDictionary["cake"] = nil // Remove the key-value pair with key "cake"
 
 Note that it is also possible to use other types besides Strings as a key in the dictionary. For example:  
 ```
-let business = Business()
+var business = Business()
 myDictionary[business] = [customer1, customer2, customer3]
 ```
 
