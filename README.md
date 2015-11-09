@@ -21,7 +21,7 @@ One could write an entire book about the Swift programming language, and indeed 
 
 ####[Collections](collections.md)  
 
-####[Flow of Control](https://en.wikipedia.org/wiki/Control_flow)  
+####[Flow of Control](control-flow.md)  
 
 ####Classes  
 
