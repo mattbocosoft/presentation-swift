@@ -10,6 +10,7 @@ Swift collections can be either mutable or immutable depending on whether the co
 ```
 var myArray = [a, b, c, d] // Create a generic array and fill it with objects
 var otherArray: [Int] = [] // Create an empty array that only holds Int's
+var otherArray = [Int]()   // Create an empty array that only holds Int's
 ```
 
 *Retrieving values*  
@@ -51,12 +52,14 @@ let bigArray = firstArray + secondArray
 
 *Creation*  
 ```
-var myDictionary = [a : 0, b : 1, c : 2]  
+var myDictionary = [a : 0, b : 1, c : 2]    // Create a generic dictionary  
+var otherDictionary: [String: Int] = [:]  // Create an empty dictionary of type [String: Int]
+var otherDictionary = [String: Int]()       // Create an empty dictionary of type [String: Int]
 ```
 
 *Retrieving values*  
 ```
-myArray[a] // Returns the value associated with the key a
+myDictionary[a] // Returns the value associated with the key a
 ```
 
 *Modifying or adding values*  
