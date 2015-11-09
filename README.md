@@ -29,10 +29,6 @@ One could write an entire book about the Swift programming language, and indeed 
 
 ####Protocols  
 
-####Functions and Methods  
-
-####Subclassing  
-
 ####Error Handling  
 
 4 ways to handle errors
