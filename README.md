@@ -31,7 +31,7 @@ let 你好世界 = "Hello World"
 let 🌲 = "Evergreen"
 ```
 
-**Optionals** are one of the most powerful and safe features of Swift.  
+**Optionals** are one of the most powerful features of Swift and contribute to the language's safety features:  
 
 > Optionals say either “there is a value, and it equals x” or “there isn’t a value at all”.  
 > Using optionals is similar to using nil with pointers in Objective-C, but they work for any type, not just classes.  
