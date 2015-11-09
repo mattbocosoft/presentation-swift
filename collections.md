@@ -6,7 +6,7 @@ Swift collections are mutable by default, so it's easy to add, remove or modify 
 
 ###Array  
 
-*Syntax*  
+*Creation*  
 ```
 let myArray = [a, b, c, d]           // Generic
 let otherArray: [Int] = [4, 5, 6, 7] // Type-specific Array only stores Int's
@@ -29,7 +29,7 @@ let bigArray = firstArray + secondArray
 
 ###Dictionary  
 
-*Syntax*  
+*Creation*  
 ```
 let myDictionary = [a : 0, b : 1, c : 2]  
 ```
