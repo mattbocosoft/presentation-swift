@@ -56,10 +56,10 @@ All the operators above apply an operation to a value and return a result. Anoth
 ```
 (a == b) // Returns true if a and b are equal, otherwise returns false
 (a != b) // Returns true if a and b are unequal, otherwise returns false
-(a > b) // Returns true if a is greater than b, otherwise returns false
-   (a >= b) // Returns true is a is greater than or equal to b
-(a < b) // Returns true if a is greater than b, otherwise returns false
-  (a <= b) // Returns true is a is less than or equal to b
+(a > b)  // Returns true if a is greater than b, otherwise returns false
+(a < b)  // Returns true if a is greater than b, otherwise returns false
+(a >= b) // Returns true is a is greater than or equal to b
+(a <= b) // Returns true is a is less than or equal to b
 ```
 
 To read more about advanced operators, check out the [Advanced Operators](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/AdvancedOperators.html#//apple_ref/doc/uid/TP40014097-CH27-ID28) section in the Swift Programming Language book.
