@@ -1,10 +1,15 @@
 #Collections  
 
+Collections are built on top of a powerful set of [generic](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Generics.html#//apple_ref/doc/uid/TP40014097-CH26-ID179) functionality, and so can be initialized and manipulated as either generic or type-specific collections.  
+
+Swift collections are mutable by default, so it's easy to add, remove or modify values in the collection.  
+
 ###Array  
 
 *Syntax*  
 ```
-let myArray = [a, b, c, d]  
+let myArray = [a, b, c, d]           // Generic
+let otherArray: [Int] = [4, 5, 6, 7] // Type-specific Array only stores Int's
 ```
 
 *Retrieving values*  
@@ -13,9 +18,7 @@ myArray[3] // Returns the third item in the array
 ```
 
 *Modifying or adding values*  
-Make sure to use `var` instead of `let` when creating the variable.  
 ```
-var myMutableArray = [a, b, c, d]
 myMutableArray += e // Add a variable 'e' to the array
 ```
 
@@ -31,6 +34,22 @@ let bigArray = firstArray + secondArray
 let myDictionary = [a : 0, b : 1, c : 2]  
 ```
 
+*Retrieving values*  
+```
+myArray[a] // Returns the value associated with the key a
+```
+
+*Modifying or adding values*  
+```
+myDictionary["cheese"] = 4   // Add or update the value 4 with key "cheese"
+myDictionary["cake"] = nil // Remove the key-value pair with key "cake"
+```
+
+Note that it is also possible to use other types besides Strings as a key in the dictionary. For example:  
+```
+let business = Business()
+myDictionary[business] = [customer1, customer2, customer3]
+```
 
 ###Set  
 
