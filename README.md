@@ -13,32 +13,32 @@ Swift is multi-[paradigm](https://en.wikipedia.org/wiki/Programming_paradigm) (e
 
 One could write an entire book about the Swift programming language, and indeed Apple released *two* books on Swift available for free on the iBooks Store: [The Swift Programming Language](https://itunes.apple.com/us/book/the-swift-programming-language/id881256329?mt=11). This presentation is therefore not intended to cover every topic of Swift, but rather to serve as a quick reference guide on the basic syntax, semantics and high-level functionality of Swift aimed at those already well-versed in at least one other programming language.  
 
-###The Basics of Swift  
+##The Basics of Swift  
 
-#####[Operators](operators.md)  
+###[Operators](operators.md)  
 
-#####[Collections](collections.md)  
+###[Collections](collections.md)  
 
-#####Optionals and Optional Chaining  
+###Optionals and Optional Chaining  
 
-#####[Flow of Control](https://en.wikipedia.org/wiki/Control_flow)  
+###[Flow of Control](https://en.wikipedia.org/wiki/Control_flow)  
 
-#####Classes  
+###Classes  
 
 ####Initializers  
 
 Initializers do not return a value.
 All stored non-optional properties must be initialized.
 
-#####Extensions  
+###Extensions  
 
-#####Protocols  
+###Protocols  
 
-#####Functions and Methods  
+###Functions and Methods  
 
-#####Subclassing  
+###Subclassing  
 
-#####Error Handling  
+###Error Handling  
 
 4 ways to handle errors
 1. Propagating Errors Using Throwing Functions  
@@ -46,7 +46,7 @@ All stored non-optional properties must be initialized.
 3. Converting Errors to Optional Values  
 4. Disabling Error Propagation  
 
-###Interoperating with Objective-C  
+##Interoperating with Objective-C  
 
 For developers who came from using Objective-C for their Xcode projects, the change will be less of a shock. As mentioned previously, Swift borrows many of its core concepts from Objective-C.  
 
