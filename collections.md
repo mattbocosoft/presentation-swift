@@ -6,14 +6,14 @@ Swift collections can be either mutable or immutable depending on whether the co
 
 ##Array  
 
-#####Creation  
+####Creation  
 ```
 var myArray = [a, b, c, d] // Create a generic array and fill it with objects
 var otherArray: [Int] = [] // Create an empty array that only holds Int's
 var otherArray = [Int]()   // Create an empty array that only holds Int's
 ```
 
-#####Retrieving values  
+####Retrieving values  
 ```
 myArray[3] // Returns the third item in the array
 
@@ -28,7 +28,7 @@ for (index, item) in myArray {
 }
 ```
 
-#####Modifying or adding values  
+####Modifying or adding values  
 ```
 myArray.append(e)      // Add a variable 'e' to the array
 myArray += e           // Add a variable 'e' to the array
@@ -37,7 +37,7 @@ myArray[0...2] = ["Hello", "Cheese", "Cake"] // Replace items at 0, 1, 2, 3 with
 myArray.insert("Pie" atIndex: 0) // Insert "Torta" at index 0
 ```
 
-#####Removing values  
+####Removing values  
 ```
 myArray.removeAtIndex(0) // Remove item at index 0
 myArray.removeLast()     // Remove last item from array
@@ -50,7 +50,7 @@ let bigArray = firstArray + secondArray
 
 ##Dictionary  
 
-#####Creation  
+####Creation  
 ```
 var myDictionary = [a : 0, b : 1, c : 2]    // Create a generic dictionary  
 var otherDictionary: [String: Int] = [:]  // Create an empty dictionary of type [String: Int]
@@ -63,7 +63,7 @@ var business = Business()
 myDictionary[business] = [customer1, customer2, customer3]
 ```
 
-#####Retrieving values  
+####Retrieving values  
 ```
 myDictionary[a] // Returns the value associated with the key a
 
@@ -78,13 +78,13 @@ for key in airports.keys {
 }
 ```
 
-#####Modifying or adding values  
+####Modifying or adding values  
 ```
 myDictionary["cheese"] = 4   // Add or update the value 4 with key "cheese"
 myDictionary.updateValue("cake", forKey: "cheese") // Update value "cake" for key "cheese"
 ```
 
-#####Removing values#  
+####Removing values  
 ```
 myDictionary["cake"] = nil               // Remove the key-value pair with key "cake"
 myDictionary.removeValueForKey["cheese"] // Remove the key-value pair with key "cheese"
