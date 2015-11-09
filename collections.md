@@ -4,6 +4,12 @@ Collections are built on top of a powerful set of [generic](https://developer.ap
 
 Swift collections can be either mutable or immutable depending on whether the collection instance is assigned to a constant (let) or a variable (var). It's easy to add, remove or modify values in a mutable collection. There are many redundant methods of accessing, modifying and removing values from collections which are covered below.  
 
+All the Collections below conform to the following operations:  
+```
+collection.isEmpty // Check if collection is empty
+collection.count   // Return number of items in collection
+```
+
 ##Array  
 
 ####Creation  
@@ -99,5 +105,26 @@ myDictionary.removeValueForKey["cheese"] // Remove the key-value pair with key "
 ```
 
 ##Set  
+
+
+####Creation  
+```
+var names = Set<String>() // Create an empty Set of type String
+var otherNames: Set = []  // Create an empty generic Set
+```
+
+####Retrieving values  
+```
+```
+
+####Modifying or adding values  
+```
+names.insert("Sami")
+```
+
+####Removing values  
+```
+```
+
 
 ##Tuple  
