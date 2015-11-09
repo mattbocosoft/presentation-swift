@@ -156,5 +156,3 @@ a.isStrictSubsetOf(b)   // Return true if a is subset of (but not equal to) b
 a.isStrictSupersetOf(b) // Return true if a is superset of (but not equal to) b
 a.isDisjointWith(b)     // Return true if a shares no values with b
 ```
-
-##Tuple  
