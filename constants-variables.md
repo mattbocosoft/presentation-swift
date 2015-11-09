@@ -53,4 +53,4 @@ Implicitly unwrapped optionals do not need to use optional binding or unwrapping
 
 Optionals can be set back to nil `possibleAge = nil` while non-optionals *cannot be set to nil*.  
 
-To read more about Optionals, check out the chapter on [Swift: The Basics](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309) in Apple's book on Swift.  
+Optionals can be a difficult concept to pick up on immediately. To read more about Optionals, check out the chapter on [Swift: The Basics](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309) in Apple's book on Swift or read one of the many [tutorials on optionals](http://www.appcoda.com/beginners-guide-optionals-swift/).  
