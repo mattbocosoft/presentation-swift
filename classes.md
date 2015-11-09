@@ -11,6 +11,9 @@ class Person {
   var age: Int?
   var position: Job
 
+  init() {
+  }
+
   func eat() {
   }
   
@@ -36,6 +39,18 @@ class Person {
 }
 ```
 
+Stored properties can also be initialized with a **default property value** when initially declared.  
+
+```
+class Person {
+  var name: String
+  var age: Int? = 0
+
+  ...
+}
+```
+
+
 Swift classes can also implement deinitializers whose job is the exact opposite of initializers; to tear down an object after it's no longer needed.  
 
 ```
@@ -45,6 +60,21 @@ class ShopKeeper {
   }
   deinit() {
     shop.CloseUp()
+  }
+}
+```
+
+Initializers can accept parameters, which are commonly used to set the values of the stored properties. These parameters can be provided with an external name which preceeds the parameter name or can opt-out of the external name by using an underscore ('_') instead.    
+
+```
+class Person {
+  var name: String
+  var age: Int?
+  var position: Job
+
+  init(_ name: String, personJob job: Job) {
+    self.name = name
+    self.position = job
   }
 }
 ```
