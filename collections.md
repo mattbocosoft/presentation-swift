@@ -2,7 +2,7 @@
 
 Collections are built on top of a powerful set of [generic](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Generics.html#//apple_ref/doc/uid/TP40014097-CH26-ID179) functionality, and so can be initialized and manipulated as either generic or type-specific collections.  
 
-Swift collections are mutable by default, so it's easy to add, remove or modify values in the collection. There are many redundant methods of accessing, modifying and removing values from collections which are covered below.  
+Swift collections can be either mutable or immutable depending on whether the collection instance is assigned to a constant (let) or a variable (var). It's easy to add, remove or modify values in a mutable collection. There are many redundant methods of accessing, modifying and removing values from collections which are covered below.  
 
 ###Array  
 
