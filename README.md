@@ -13,7 +13,7 @@ Swift is multi-[paradigm](https://en.wikipedia.org/wiki/Programming_paradigm) (e
 
 ###Operators  
 
-As with all programming languages, Swift contains a set of operators that act on its variables. Most of these operators are just like other languages or are intuitive and cross-discipline (like the arithmetic operators).  
+As with all programming languages, Swift contains a set of operators that act on its variables. Most of these operators are just like other languages or are intuitive and cross-discipline (like the arithmetic operators). Operators are either *unary* (1 target), *binary* (2 targets), or *ternary* (3 targets).  
 
 The **assignment** operator assigns a value to a variable:  
 ```
