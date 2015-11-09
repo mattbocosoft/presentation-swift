@@ -36,7 +36,22 @@ class Person {
 }
 ```
 
+Swift classes can also implement deinitializers whose job is the exact opposite of initializers; to tear down an object after it's no longer needed.  
+
+```
+class ShopKeeper {
+  init() {
+    shop.Open()
+  }
+  deinit() {
+    shop.CloseUp()
+  }
+}
+```
+
 ###Inheritance  
+
+
 
 ###Structures  
 
