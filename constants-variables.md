@@ -16,7 +16,8 @@ let 你好世界 = "Hello World"
 let 🌲 = "Evergreen"
 ```
 
-**Optionals** are one of the most powerful features of Swift and contribute to the language's safety features. An optional can either say that there *is a value and it's x* or that the is no value present. Optional are similar to nillable pointers in Objective-C except that they apply to all Types, not just classes.
+###Optionals
+Optionals are one of the most powerful features of Swift and contribute to the language's safety features. An optional can either say that there *is a value and it's x* or that the is no value present. Optional are similar to nillable pointers in Objective-C except that they apply to all Types, not just classes.
 
 Declaring a constant or variable looks much like any other language:  
 ```
@@ -30,7 +31,8 @@ let name? = "George"
 var possibleAge?
 ```
 
-When the optional is referenced later in the code, it's important to handle the optionality using optional binding to determine where the option value is present:  
+###Unwrapping Optionals  
+Optional values must be unwrapped before being referenced later on. This can be done using optional binding: 
 ```
 if let actualAge = possibleAge {
   // The age value is present
@@ -38,6 +40,22 @@ if let actualAge = possibleAge {
   // No age has been set
 }
 ```
+
+If you know for a fact that an optional contains a value, then you can explicitly unwrap it using an exclamation mark:  
+```
+let actualAge = possibleAge!
+```
+
+Alternatively, an optionals can be declared with the exclamation mark in place so that they are *implicitly unwrapped*, which is a feature primarily used during class initialization:
+```
+var possibleAge!
+
+init() {
+  possibleAge = 42
+}
+```
+
+Implicitly unwrapped optionals do not need to use optional binding or unwrapping.  
 
 Optionals can be set back to nil `possibleAge = nil` while non-optionals *cannot be set to nil*.  
 
