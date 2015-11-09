@@ -19,10 +19,10 @@ let 🌲 = "Evergreen"
 ###Optionals
 Optionals are one of the most powerful features of Swift and contribute to the language's safety features. An optional can either say that there *is a value and it's x* or that *there is no value*. Optionals are similar to nullable pointers in Objective-C except that they apply to all types and not just classes.
 
-Declare an *optional* constant or variable by adding a question mark (?) after the variable name:  
+Declare an *optional* constant or variable by adding a question mark (?) after the variable type:  
 ```
-let name? = "George"
-var possibleAge?
+let name: String? = "George"
+var possibleAge: Int?
 ```
 
 ###Unwrapping Optionals  
