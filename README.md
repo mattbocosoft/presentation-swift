@@ -23,7 +23,7 @@ One could write an entire book about the Swift programming language, and indeed 
 
 ####[Flow of Control](control-flow.md)  
 
-####Classes  
+####[Classes](classes.md)  
 
 #####Initializers  
 
