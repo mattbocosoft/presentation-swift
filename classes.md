@@ -206,6 +206,41 @@ func chooseGreetingFunction(english: Bool) -> (String) -> String {
 ```
 
 ###Inheritance and Subclassing  
+Subclassing in Swift is similar to Objective-C. Use a colon and the name of the class you'd like to subclass:
+```
+class Language {
+  // Base class
+  var name: String
+  var languageFamily: String
+  var dialect: String
+}
+
+class Chinese: Language {
+  // Subclass
+}
+```
+
+Subclasses inherit characteristics such as properties, methods, and conformed protocols from the base class. A subclass can override functions from its base class, but the subclass must explicitly declare the override intention using the 'override' keyword in front of the function name.  
+```
+class Language {
+  // Base class
+  var name: String
+  var languageFamily: String
+  var dialect: String
+  
+  func helloWorld() -> String {
+    return "Override me!"
+  }
+}
+
+class Chinese: Language {
+
+  override func helloWorld() -> String {
+    return "你好世界"
+  }
+}
+```
+
 
 ###Structures  
 
