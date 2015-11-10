@@ -112,7 +112,31 @@ print("Name: \(retVal.name)")
 print("Age: \(retVal.age)")
 ```
 
-One difference in Swift is that Functions have types so they can be passed around as parameters.
+**External parameter names** can be used to make the function more expressive when used:  
+```
+func printName(of person: Person and otherPerson: Person) {
+  print("Hello \(person.name) and \(otherPerson.name)")
+}
+
+// External parameters names must *always* be used when calling the function
+printName(of: Fred and: Bob)
+```
+
+**Variadic parameters** can be used to accept a dynamic number of parameters that function like an array:  
+```
+func sumAll(numbers: Int...) -> Int {
+  var sum: Int = 0
+  for number in numbers {
+    sum += number
+  }
+  return sum
+}
+
+// Call a function with variadic parameters by separating parameters with commas
+sum(1, 2, 3, 5, 8)
+```
+
+Swift Functions have types so they can be passed around as parameters.  
 
 ###Inheritance and Subclassing  
 
