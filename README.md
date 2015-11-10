@@ -31,11 +31,6 @@ One could write an entire book about the Swift programming language, and indeed 
 
 ####[Protocols](protocols.md)  
 
-####Other Swift Tools  
-
-To print out text, constants and variables to the console:  
-`print("Hello there \(name)")`
-
 ##Resources  
 [The Swift Programming Language](https://itunes.apple.com/us/book/the-swift-programming-language/id881256329?mt=11) [(*or View Online*)](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html)  
 [Using Swift with Cocoa and Objective-C](https://itunes.apple.com/us/book/using-swift-cocoa-objective/id888894773?mt=11)  
