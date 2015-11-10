@@ -27,23 +27,14 @@ One could write an entire book about the Swift programming language, and indeed 
 
 ####[Classes](classes.md)  
 
-####Extensions  
+####[Extensions](extensions.md)  
 
-####Protocols  
-
-####Error Handling  
-
-4 ways to handle errors
-1. Propagating Errors Using Throwing Functions  
-2. Handling Errors Using Do-Catch  
-3. Converting Errors to Optional Values  
-4. Disabling Error Propagation  
+####[Protocols](protocols.md)  
 
 ####Other Swift Tools  
 
 To print out text, constants and variables to the console:  
 `print("Hello there \(name)")`
-
 
 ##Resources  
 [The Swift Programming Language](https://itunes.apple.com/us/book/the-swift-programming-language/id881256329?mt=11) [(*or View Online*)](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html)  
