@@ -275,3 +275,8 @@ class Language {
 In Swift, Classes and Structures are almost identical. They both can contain properties, methods, conform to protocols and define initializers. Probably the most important difference between classe and structures is that class instances are passsed around by reference whereas structures are copied each time they are assigned. Also importantly, Classes support inheritance while structures are unable to inherit from other structures.  
 
 Structures can also use "memberwise initializers" when creating structure instances.  
+
+
+**Previous**: [Flow of Control](control-flow.md)  
+**Next**: [Extensions](extensions.md)  
+Return to the [homepage](README.md).
