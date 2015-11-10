@@ -112,7 +112,7 @@ print("Name: \(retVal.name)")
 print("Age: \(retVal.age)")
 ```
 
-**External parameter names** can be used to make the function more expressive when used:  
+**External parameter names** can be used to make the function more expressive when used. By default, the first parameter does not use an external name and the second and subsequent parameters use their local name as their external name, however you can use a different external name for each parameter:  
 ```
 func printName(of person: Person and otherPerson: Person) {
   print("Hello \(person.name) and \(otherPerson.name)")
@@ -156,7 +156,39 @@ multiplyByTwo(&count)
 // Count is now 4
 ```
 
-Swift Functions have types so they can be passed around as parameters.  
+All Swift Functions have types so they can be passed around as parameters.  
+```
+// This function's type is (String) -> String
+func hello(name: String) -> String {
+  return "Hello \(name)"
+}
+
+func printResult(stringFunction: (String) -> String, name: String) {
+  print(stringFunction(name))
+}
+
+printResult(hello, "Roger")
+// "Hello Roger" will be printed out on the Console
+```
+
+**Function Types** can even be returned as value by other functions:  
+```
+func greetEnglish(name: String) -> String {
+  return "Hello \(name)"
+}
+
+func greetChinese(name: String) -> String {
+  return "你好\(name)"
+}
+
+func chooseGreetingFunction(english: Bool) -> (String) -> String {
+  if english {
+    return greetEnglish
+  } else {
+    return greetChinese
+  }
+}
+```
 
 ###Inheritance and Subclassing  
 
