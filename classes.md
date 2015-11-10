@@ -144,6 +144,18 @@ func addQuotes(var string: String) -> String {
 }
 ```
 
+**Inout parameters** can be used to modify values outside the scope of a function's body without requiring a return value. The function needs to mark the parameter as inout and the caller needs to explicitly give the function permission to modify the variable by adding an ampersand before the passed-in variable. Note that only variables and not constants can be passed in as inout parameters.  
+```
+var count: Int = 2
+
+func multiplyByTwo(inout a: Int) {
+  a *= 2
+}
+
+multiplyByTwo(&count)
+// Count is now 4
+```
+
 Swift Functions have types so they can be passed around as parameters.  
 
 ###Inheritance and Subclassing  
