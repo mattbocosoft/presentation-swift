@@ -190,6 +190,21 @@ func chooseGreetingFunction(english: Bool) -> (String) -> String {
 }
 ```
 
+Lastly, functions can be nested within each other. Below uses the same example as above but using nested functions:  
+```
+func chooseGreetingFunction(english: Bool) -> (String) -> String {
+
+  func greetEnglish(name: String) -> String { return "Hello \(name)" }
+  func greetChinese(name: String) -> String { return "你好\(name)" }
+
+  if english {
+    return greetEnglish
+  } else {
+    return greetChinese
+  }
+}
+```
+
 ###Inheritance and Subclassing  
 
 ###Structures  
