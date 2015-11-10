@@ -4,6 +4,7 @@ Swift Protocols are similar to Protocols in Objective-C. As the Swift book says,
 
 ```
 protocol MyProtocol {
+  func nameSelected(name: String)
 }
 ```
 
@@ -13,6 +14,14 @@ To declare that a type conforms to a protocol, add the protocol after the class 
 
 ```
 class MyClass: SuperClass, MyProtocol {
+}
+```
+
+Protocol requirements can be specified to be optional using the *optional* keyword.  
+```
+protocol MyProtocol {
+  func personSelected(person: Person)
+  optionl func nameSelected(name: String)
 }
 ```
 
