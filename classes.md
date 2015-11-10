@@ -212,7 +212,6 @@ class Language {
   // Base class
   var name: String
   var languageFamily: String
-  var dialect: String
 }
 
 class Chinese: Language {
@@ -226,21 +225,50 @@ class Language {
   // Base class
   var name: String
   var languageFamily: String
-  var dialect: String
   
-  func helloWorld() -> String {
-    return "Override me!"
+  func helloWorld() {
+    print("Override me!")
   }
 }
 
 class Chinese: Language {
 
-  override func helloWorld() -> String {
-    return "你好世界"
+  override func helloWorld() {
+    print("你好世界")
   }
 }
 ```
 
+Subclasses can call the base-class implementation of a overriden method by calling 'super' just like in Objective-C.  
+```
+class Chinese: Language {
+
+  override func helloWorld() {
+    super.helloWorld()
+    print("你好世界")
+
+    // This method prints out two lines:
+    // "Override me!"
+    // "你好世界"
+  }
+```
+
+If characteristics of the base class such as properties or method should *not* be overriden, then use the **final modifier**.
+```
+class Language {
+  // Base class
+  var name: String
+  var languageFamily: String
+  
+  func helloWorld() {
+    print("Override me!")
+  }
+  
+  final func universalGreeting() {
+    print("Hi!")
+  }
+}
+```
 
 ###Structures  
 
