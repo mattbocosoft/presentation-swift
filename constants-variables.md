@@ -78,3 +78,6 @@ The same can be used for *setting* optional values:
 organization?.management?.ceo?.age = 24
 ```
 
+
+**Next**: [Operators](operators.md)  
+Return to the [homepage](README.md).
