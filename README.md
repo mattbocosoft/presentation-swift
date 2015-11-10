@@ -13,7 +13,7 @@ Swift is multi-[paradigm](https://en.wikipedia.org/wiki/Programming_paradigm) (e
 
 One could write an entire book about the Swift programming language, and indeed Apple released *two* books on Swift available for free on the iBooks Store: [The Swift Programming Language](https://itunes.apple.com/us/book/the-swift-programming-language/id881256329?mt=11). This presentation is therefore not intended to cover every topic of Swift, but rather to serve as a quick reference guide on the basic syntax, semantics and high-level functionality of Swift aimed at those already well-versed in at least one other programming language. For developers who came from using Objective-C for their Xcode projects, the change will be easier than developers coming from other languages and environemnts. As mentioned previously, Swift borrows many of its core concepts from Objective-C.  
 
-##The Basics of Swift  
+##Basic Topics  
 
 ####[Constants and Variables](constants-variables.md)  
 
