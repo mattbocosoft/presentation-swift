@@ -17,3 +17,7 @@ class MyClass: SuperClass, MyProtocol {
 ```
 
 Protocols are in important part of the delegate pattern used throughout iOS.
+
+
+**Previous**: [Extensions](extensions.md)  
+Return to the [homepage](README.md).
