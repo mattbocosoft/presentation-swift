@@ -104,3 +104,8 @@ guard let name = person.name else {
 Guard statements always include the `else` clause and are meant to be used to exit early from a function if some condition does not hold true. Otherwise execution of the function continues.  
 
 For more information about control flow in Swift, including special handling of Tuples in switch statements and labeled statments check out the chapter on [Control Flow](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/ControlFlow.html) in Apple's Swift Book.  
+
+
+**Previous**: [Collections](collections.md)  
+**Next**: [Classes](classes.md)  
+Return to the [homepage](README.md).
