@@ -81,20 +81,32 @@ class Person {
 
 ###Functions and Methods  
 
-Functions are made of a name, optional parameters, and an optional return type.  
+Functions are made of a name, optional parameters, and an optional return type. Below is the structure of a Swift function:  
+
+```
+func otherFun(personName: String) -> Bool {
+  // Function with Bool return type and one parameter called 'personName' of type String
+  return true
+}
+```
+
+The return value can be left out and the parameters are optional.  
 
 ```
 func myFunc() {
   // Function with no return type and no parameters
 }
+```
 
-func otherFun(personName: String) -> Bool {
-  // Function with both a return type and one parameter
-  return true
+Swift Functions can even return multiple values at once using Tuples.  
+
+```
+func nameAge(person: Person) -> (name: String, age: Int) {
+  return (person.name, person.age)
 }
 ```
 
-However in Swift, Functions have types so they can be passed around as parameters.
+One difference in Swift is that Functions have types so they can be passed around as parameters.
 
 ###Inheritance and Subclassing  
 
