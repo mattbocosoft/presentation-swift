@@ -136,6 +136,14 @@ func sumAll(numbers: Int...) -> Int {
 sum(1, 2, 3, 5, 8)
 ```
 
+**Variable parameters** are copied into a variable to that they can be modified in the body of the function, as opposed to the standard constant parameters which cannot:  
+```
+func addQuotes(var string: String) -> String {
+  string = "\"" + string + "\""
+  return string
+}
+```
+
 Swift Functions have types so they can be passed around as parameters.  
 
 ###Inheritance and Subclassing  
