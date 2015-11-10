@@ -77,3 +77,8 @@ a ?? b      // Return a if it is non-nil, otherwise return b
 ```
 
 This page has covered the basic Swift operators. To read more about advanced operators, check out the [Advanced Operators](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/AdvancedOperators.html#//apple_ref/doc/uid/TP40014097-CH27-ID28) section in the Swift Programming Language book.
+
+
+**Previous**: [Constants and Variables](constants-variables.md)  
+**Next**: [Collections](collections.md)  
+Return to the [homepage](README.md).
