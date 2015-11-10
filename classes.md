@@ -104,6 +104,12 @@ Swift Functions can even return multiple values at once using Tuples.
 func nameAge(person: Person) -> (name: String, age: Int) {
   return (person.name, person.age)
 }
+
+let retVal = nameAge(person)
+
+// The tuple values can be referenced by name
+print("Name: \(retVal.name)")
+print("Age: \(retVal.age)")
 ```
 
 One difference in Swift is that Functions have types so they can be passed around as parameters.
